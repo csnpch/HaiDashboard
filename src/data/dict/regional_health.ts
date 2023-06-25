@@ -1,0 +1,17 @@
+export const regional_health = {
+    all: { label: 'ทุกเขต ฯ', id: 0, name: '' },
+    one: { label: 'เขต 1', id: 1, name: 'เชียงใหม่' },
+    two: { label: 'เขต 2', id: 2, name: 'พิษณุโลก' },
+    three: { label: 'เขต 3', id: 3, name: 'นครสวรรค์' },
+    four: { label: 'เขต 4', id: 4, name: 'สระบุรี' },
+    five: { label: 'เขต 5', id: 5, name: 'ราชบุรี' },
+    six: { label: 'เขต 6', id: 6, name: 'ระยอง' },
+    seven: { label: 'เขต 7', id: 7, name: 'ขอนแก่น' },
+    edge: { label: 'เขต 8', id: 8, name: 'อุดรธานี' },
+    nine: { label: 'เขต 9', id: 9, name: 'นครราชสีมา' },
+    ten: { label: 'เขต 10', id: 10, name: 'อุบลราชธานี' },
+    eleven: { label: 'เขต 11', id: 11, name: 'สุราษฎร์ธานี' },
+    twelve: { label: 'เขต 12', id: 12, name: 'สงขลา' },
+    thirteen: { label: 'เขต 13', id: 13, name: 'กรุงเทพมหานคร'},
+    not_in_any: { label: 'ไม่อยู่ในเขตบริการใด', id: 14, name: '' },
+}

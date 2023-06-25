@@ -1,0 +1,31 @@
+@tailwind components;
+@tailwind utilities;
+
+
+/* Components tailwind */
+.flex-center {
+    @apply flex justify-center items-center
+}
+
+.wh-full {
+    @apply w-full h-full
+}
+
+
+
+/* Classes */
+.container-splash-screen {
+    animation: opacityDestroy 0.4s forwards;
+    transition: 0.2s ease-in-out;
+    @apply fixed top-0 left-0 z-50 wh-full
+}
+
+
+.container_main {
+    @apply w-full h-screen bg-[#F2F2F2]
+}
+
+
+.container_navbar {
+    @apply flex items-center flex-row
+}

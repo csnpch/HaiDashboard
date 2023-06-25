@@ -1,0 +1,62 @@
+ else if (filter_context.filterUsing === 'regional_health') {
+            tmpVal.width = 1000
+            tmpVal.height = 1900
+            if (filter_context.regional_health.id === regional_health.all.id) {
+                tmpVal.scale = isBigScreen ? 0.24 : 0.14
+                tmpVal.x = isBigScreen ? '54%' : '-50%'
+                tmpVal.y = isBigScreen ? '-158%' : '-307.5%'
+            } else if (filter_context.regional_health.id === regional_health.one.id) {
+                tmpVal.scale = isBigScreen ? 1 : 0.6
+                tmpVal.x = isBigScreen ? '40%' : '14%'
+                tmpVal.y = isBigScreen ? '2%' : '-33%'
+            } else if (filter_context.regional_health.id === regional_health.two.id) {
+                tmpVal.scale = isBigScreen ? 1.06 : 0.66
+                tmpVal.x = isBigScreen ? '32%' : '8%'
+                tmpVal.y = isBigScreen ? '-10%' : '-39.5%'
+            } else if (filter_context.regional_health.id === regional_health.three.id) {
+                tmpVal.scale = isBigScreen ? 1.5 : 0.92
+                tmpVal.x = isBigScreen ? '28%' : '12%'
+                tmpVal.y = isBigScreen ? '-5.5%' : '-28%'
+            } else if (filter_context.regional_health.id === regional_health.four.id) {
+                tmpVal.scale = isBigScreen ? 1.9 : 1.11
+                tmpVal.x = isBigScreen ? '15%' : '2%'
+                tmpVal.y = isBigScreen ? '-8%' : '-28%'
+            } else if (filter_context.regional_health.id === regional_health.five.id) {
+                tmpVal.scale = isBigScreen ? 0.84 : 0.42
+                tmpVal.x = isBigScreen ? '40%' : '10%'
+                tmpVal.y = isBigScreen ? '-41%' : '-100.5%'
+            } else if (filter_context.regional_health.id === regional_health.six.id) {
+                tmpVal.scale = isBigScreen ? 1.2 : 0.7
+                tmpVal.x = isBigScreen ? '10%' : '-15%'
+                tmpVal.y = isBigScreen ? '-30%' : '-61%'
+            } else if (filter_context.regional_health.id === regional_health.seven.id) {
+                tmpVal.scale = isBigScreen ? 1.5 : 0.92
+                tmpVal.x = isBigScreen ? '-11%' : '-28.4%'
+                tmpVal.y = isBigScreen ? '-3.5%' : '-26.5%'
+            } else if (filter_context.regional_health.id === regional_health.edge.id) {
+                tmpVal.scale = isBigScreen ? 1.14 : 0.76
+                tmpVal.x = isBigScreen ? '-6.4%' : '-29%'
+                tmpVal.y = isBigScreen ? '-3%' : '-28%'
+            } else if (filter_context.regional_health.id === regional_health.nine.id) {
+                tmpVal.scale = isBigScreen ? 1.14 : 0.70
+                tmpVal.x = isBigScreen ? '-1.5%' : '-26%'
+                tmpVal.y = isBigScreen ? '-16%' : '-46%'
+            } else if (filter_context.regional_health.id === regional_health.ten.id) {
+                tmpVal.scale = isBigScreen ? 1.3 : 0.72
+                tmpVal.x = isBigScreen ? '-28%' : '-49%'
+                tmpVal.y = isBigScreen ? '-11.5%' : '-43%'
+            } else if (filter_context.regional_health.id === regional_health.eleven.id) {
+                tmpVal.scale = isBigScreen ? 1 : 0.56
+                tmpVal.x = isBigScreen ? '38%' : '12.5%'
+                tmpVal.y = isBigScreen ? '-61%' : '-101.5%'
+            } else if (filter_context.regional_health.id === regional_health.twelve.id) {
+                tmpVal.scale = isBigScreen ? 1.36 : 0.64
+                tmpVal.x = isBigScreen ? '21.5%' : '1%'
+                tmpVal.y = isBigScreen ? '-66.6%' : '-109%'
+            // 13 bangkok
+            } else if (filter_context.regional_health.id === regional_health.thirteen.id) {
+                tmpVal.scale = isBigScreen ? 4 : 3
+                tmpVal.x = isBigScreen ? '14%' : '7.6%'
+                tmpVal.y = isBigScreen ? '-4%' : '-9%'
+            }
+        

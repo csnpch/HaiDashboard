@@ -1,0 +1,14 @@
+.container_map_svg svg path {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.container_map_svg svg .enabled-hover path:hover {
+    opacity: 0.8;
+    z-index: initial;
+}
+
+.container_map_svg svg .enabled-hover-regional:hover {
+    opacity: 0.8;
+    z-index: initial;
+}

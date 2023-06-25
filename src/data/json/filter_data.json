@@ -1,0 +1,28 @@
+{
+  "regionalFilter": [
+    { "index": 0, "label": "ทั้งประเทศ", "value": "all", "code": 0 },
+    { "index": 1, "label": "กรุงเทพมหานคร", "value": "bangkok", "code": -1 },
+    { "index": 2, "label": "เหนือ", "value": "northern", "code": 2 },
+    { "index": 3, "label": "ตะวันออกเฉียงเหนือ", "value": "northeastern", "code": 6},
+    { "index": 4, "label": "กลาง", "value": "central", "code": 1 },
+    { "index": 5, "label": "ตะวันออก", "value": "eastern", "code": 4 },
+    { "index": 6, "label": "ตะวันตก", "value": "western", "code": 5 },
+    { "index": 7, "label": "ใต้", "value": "southern", "code": 3 }
+  ],
+  "regionalHealthFilter": [
+    { "index": 0, "id": 0, "label": "ทุกเขต", "value": 0 },
+    { "index": 2, "id": 1, "label": "เขต 1 เชียงใหม่", "value": 0 },
+    { "index": 3, "id": 2, "label": "เขต 2 พิษณุโลก", "value": 0 },
+    { "index": 4, "id": 3, "label": "เขต 3 นครสวรรค์", "value": 0 },
+    { "index": 5, "id": 4, "label": "เขต 4 สระบุรี", "value": 0 },
+    { "index": 6, "id": 5, "label": "เขต 5 ราชบุรี", "value": 0 },
+    { "index": 7, "id": 6, "label": "เขต 6 ระยอง", "value": 0 },
+    { "index": 8, "id": 7, "label": "เขต 7 ขอนแก่น", "value": 0 },
+    { "index": 9, "id": 8, "label": "เขต 8 อุดรธานี", "value": 0 },
+    { "index": 10, "id": 9, "label": "เขต 9 นครราชสีมา", "value": 0 },
+    { "index": 11, "id": 10, "label": "เขต 10 อุบลราชธานี", "value": 0 },
+    { "index": 12, "id": 11, "label": "เขต 11 สุราษฎร์ธานี", "value": 0 },
+    { "index": 13, "id": 12, "label": "เขต 12 สงขลา", "value": 0 },
+    { "index": 1, "id": 13, "label": "เขต 13 กรุงเทพมหานคร", "value": 0 }
+  ]
+}
